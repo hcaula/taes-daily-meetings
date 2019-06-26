@@ -4,6 +4,7 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+  align-items: center;
 
   font-family: 'Lato';
 }
@@ -16,6 +17,27 @@ body {
   margin-top: 20px;
 }
 
+.interviews {
+  width: 400px;
+  border: 2px solid black;
+}
+
+.pdfs, .audios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h4 {
+  margin: 3px;
+}
+
 .links {
-  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.links > * {
+  margin: 5px;
 }
